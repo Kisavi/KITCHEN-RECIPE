@@ -1,0 +1,22 @@
+body {
+    background-image: url(background.png);
+}
+
+h2 {
+    color: rgb(172, 30, 30);
+    font-family: 'Architects Daughter', cursive;
+    font-size: 60px;
+}
+
+span {
+    color: palevioletred;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: right;
+    gap: 1cm;
+    margin-top: 70px;
+    font-size: larger;
+}
