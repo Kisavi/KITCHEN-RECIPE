@@ -3,13 +3,13 @@ $(document).ready(function() {
       $("#chapati-showing").toggle("slow");
       $(".hide-chapati-image").toggle();
     })
-    $("#cake").click(function(){
-      $("#cake-showing").toggle("slow");
-      $(".hide-cake-image").toggle();
+    $("#fries").click(function(){
+      $("#fries-showing").toggle("slow");
+      $(".hide-fries-image").toggle();
     })
-    $("#mandazi").click(function(){
-      $("#mandazi-showing").toggle("slow");
-      $(".hide-mandazi").toggle();
+    $("#chicken").click(function(){
+      $("#chicken-showing").toggle("slow");
+      $(".hide-chicken").toggle();
     })
   // SECTION 2
     $("#sausage").click(function(){
