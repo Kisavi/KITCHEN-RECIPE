@@ -30,4 +30,23 @@ $(document).ready(function() {
         $("#eggs").click(function(){
         $("#eggs-showing").toggle("slow");
         $(".hide-eggs-image").toggle();
+        });
+        // SECTION 3
+    $("#donuts").click(function(){
+        $("#donuts-showing").toggle("slow");
+        $(".hide-donuts-image").toggle();
         })
+    
+        $("#Potatoes").click(function(){
+        $("#Potatoes-showing").toggle("slow");
+        $(".hide-Potatoes-image").toggle();
+        })
+    
+        $("#tea").click(function(){
+        $("#tea-showing").toggle("slow");
+        $(".hide-tea-image").toggle();
+        });
+    
+
+      
+            
