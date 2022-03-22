@@ -18,5 +18,24 @@ span {
     align-items: right;
     gap: 1cm;
     margin-top: 70px;
+    font-size: 40px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: black;
+}
+
+.home {
     font-size: larger;
+    font-family: 'Apple Chancery', cursive;
+    text-align: center;
+}
+
+.footer {
+    font-size: 50px;
 }
