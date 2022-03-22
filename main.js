@@ -1,7 +1,7 @@
 $(document).ready(function() {
-    $("#pancake").click(function(){
-      $("#pancake-showing").toggle("slow");
-      $(".hide-pancake-image").toggle();
+    $("#chapati").click(function(){
+      $("#chapati-showing").toggle("slow");
+      $(".hide-chapati-image").toggle();
     })
     $("#cake").click(function(){
       $("#cake-showing").toggle("slow");
