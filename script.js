@@ -14,5 +14,20 @@ $(document).ready(function() {
       $("#mandazi-showing").toggle("slow");
       $(".hide-mandazi").toggle();
     })
-    
+
     });
+    // SECTION 2
+    $("#sausage").click(function(){
+        $("#sausage-showing").toggle("slow");
+        $(".hide-sausage-image").toggle();
+        })
+
+        $("#waffles").click(function(){
+        $("#waffles-showing").toggle("slow");
+        $(".hide-waffles-image").toggle();
+        })
+
+        $("#eggs").click(function(){
+        $("#eggs-showing").toggle("slow");
+        $(".hide-eggs-image").toggle();
+        })
