@@ -12,29 +12,29 @@ $(document).ready(function() {
       $(".hide-chicken").toggle();
     })
   // SECTION 2
-    $("#sausage").click(function(){
-    $("#sausage-showing").toggle("slow");
-    $(".hide-sausage-image").toggle();
+    $("#curry").click(function(){
+    $("#curry-showing").toggle("slow");
+    $(".hide-curry-image").toggle();
     })
-    $("#waffles").click(function(){
-    $("#waffles-showing").toggle("slow");
-    $(".hide-waffles-image").toggle();
+    $("#pilau").click(function(){
+    $("#pilau-showing").toggle("slow");
+    $(".hide-pilau-image").toggle();
     })
-    $("#eggs").click(function(){
-    $("#eggs-showing").toggle("slow");
-    $(".hide-eggs-image").toggle();
+    $("#salmon").click(function(){
+    $("#salmon-showing").toggle("slow");
+    $(".hide-salmon-image").toggle();
     })
   // SECTION 3
-  $("#donuts").click(function(){
-  $("#donuts-showing").toggle("slow");
-  $(".hide-donuts-image").toggle();
+  $("#burger").click(function(){
+  $("#burger-showing").toggle("slow");
+  $(".hide-burger-image").toggle();
   })
-  $("#Potatoes").click(function(){
-  $("#Potatoes-showing").toggle("slow");
-  $(".hide-Potatoes-image").toggle();
+  $("#pasta").click(function(){
+  $("#pasta-showing").toggle("slow");
+  $(".hide-pasta-image").toggle();
   })
-  $("#tea").click(function(){
-  $("#tea-showing").toggle("slow");
-  $(".hide-tea-image").toggle();
+  $("#spag").click(function(){
+  $("#spag-showing").toggle("slow");
+  $(".hide-spag-image").toggle();
   })
   });
