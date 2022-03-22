@@ -25,3 +25,14 @@
 #spag-showing{
   display: none;
 }
+.text-center{
+  color: red;
+  font-family: sans-serif;
+}
+.container{
+  background: url(./pictures/bg.jpeg);
+}
+.card{
+  margin-top: 20px;
+  
+}
