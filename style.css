@@ -1,5 +1,7 @@
 *{
     background:url(./images/background.jpeg);
+    margin: 0;
+    padding: 0;
 } 
  
  h1.text-center{
