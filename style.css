@@ -1,4 +1,8 @@
-h1.text-center{
+*{
+    background:url(./images/background.jpeg);
+} 
+ 
+ h1.text-center{
     padding-top: 40px;
 }
 
