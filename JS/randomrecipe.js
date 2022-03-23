@@ -178,4 +178,13 @@ function getRecipe() {
     initial.style.display = "none"
     let img = document.createElement("img");
     img.src = this.image
+
+     //MANIPULATING THE CARD ELEMENTS CONTENT
+     recipeImage.replaceChild(img, recipeImage.lastChild)
+     mealName.innerHTML = this.food
+     mealTime.innerHTML = this.dish
+     mealDescription.innerHTML = this.description
+     mealIngredients.innerHTML = this.ingredients
+     prepDirection.innerHTML = this.direction
+     mealNutrition.innerHTML = this.nutrition
 }
