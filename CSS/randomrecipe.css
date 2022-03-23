@@ -8,3 +8,9 @@ html, body {
     background-position: center center;
     background-size: cover;
 }
+
+.recipeCardContainer {
+    display: flex;
+    justify-content: center;
+
+}
