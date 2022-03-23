@@ -145,4 +145,24 @@ function getRecipe() {
     //GENERATING A RANDOM INDEX FROM THE LENGTH OF OUR ARRAY
     let generateRandomIndex = Math.floor((Math.random() * recipes.length));
     let generatedRandomRecipe = recipes[generateRandomIndex]
+
+      //constructor function
+      function recipe(image, food, dish, description, ingredients, direction, nutrition) {
+        this.image = image;
+        this.food = food;
+        this.dish = dish;
+        this.description = description;
+        this.ingredients = ingredients;
+        this.direction = direction;
+        this.nutrition = nutrition;
+    }
+
+    this.image = generatedRandomRecipe.image
+    this.food = generatedRandomRecipe.food
+    this.dish = generatedRandomRecipe.dish
+    this.description = generatedRandomRecipe.description
+    this.ingredients = generatedRandomRecipe.ingredients
+    this.direction = generatedRandomRecipe.direction
+    this.nutrition = generatedRandomRecipe.nutrition
+
 }
