@@ -2,11 +2,11 @@
 
 ## Authors
 
-* [Kisavi]() 
-* [Beverlyfiona12]()
-* [Paullete]()
-* [IsabelKarimi]()
 * [AdlightAkinyi]()
+* [Beverlyfiona12]()
+* [IsabelKarimi]()
+* [Kisavi]() 
+* [Paullete]()
 
 # Description
 
@@ -18,9 +18,9 @@ Click this link to view the live application #
 
 ## ScreenShots
 
-![Landing page](https://user-images.githubusercontent.com/86776527/159702662-4ad06a1b-05e9-461b-a6f5-9787a5b5e3d8.jpeg)
+![Landing page](https://user-images.githubusercontent.com/86776527/159737664-03b53202-fa12-4e72-aa27-0f616217bfbc.png)
 
-[Recipes](#)
+![Random recipe page](https://user-images.githubusercontent.com/86776527/159740978-1d5ff6c9-5258-49ee-92c1-ac3bb7fc4b2c.png)
 
 [Random recipe](#)
 ## User Story
