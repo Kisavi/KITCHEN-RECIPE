@@ -1,12 +1,12 @@
 # KITCHEN-RECIPE
 
-## Author 
+## Authors
 
-[Kisavi]() 
-[Beverlyfiona12]()
-[Paullete]()
-[IsabelKarimi]()
-[AdlightAkinyi]()
+*[Kisavi]() 
+*[Beverlyfiona12]()
+*[Paullete]()
+*[IsabelKarimi]()
+*[AdlightAkinyi]()
 
 # Description
 
@@ -18,7 +18,7 @@ Click this link to view the live application #
 
 ## ScreenShots
 
-[Landing page](https://user-images.githubusercontent.com/86776527/159702662-4ad06a1b-05e9-461b-a6f5-9787a5b5e3d8.jpeg)
+![Landing page](https://user-images.githubusercontent.com/86776527/159702662-4ad06a1b-05e9-461b-a6f5-9787a5b5e3d8.jpeg)
 
 [Recipes](#)
 
