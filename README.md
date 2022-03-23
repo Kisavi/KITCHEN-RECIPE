@@ -2,11 +2,11 @@
 
 ## Authors
 
-*[Kisavi]() 
-*[Beverlyfiona12]()
-*[Paullete]()
-*[IsabelKarimi]()
-*[AdlightAkinyi]()
+* [Kisavi]() 
+* [Beverlyfiona12]()
+* [Paullete]()
+* [IsabelKarimi]()
+* [AdlightAkinyi]()
 
 # Description
 
