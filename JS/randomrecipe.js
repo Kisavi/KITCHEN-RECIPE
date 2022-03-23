@@ -146,8 +146,8 @@ function getRecipe() {
     let generateRandomIndex = Math.floor((Math.random() * recipes.length));
     let generatedRandomRecipe = recipes[generateRandomIndex]
 
-      //constructor function
-      function recipe(image, food, dish, description, ingredients, direction, nutrition) {
+    //constructor function
+    function recipe(image, food, dish, description, ingredients, direction, nutrition) {
         this.image = image;
         this.food = food;
         this.dish = dish;
@@ -165,4 +165,17 @@ function getRecipe() {
     this.direction = generatedRandomRecipe.direction
     this.nutrition = generatedRandomRecipe.nutrition
 
+    //GETTING CARD COMPONENTS BY ID
+    let recipeImage = document.getElementById("randomImage")
+    let mealName = document.getElementById("randomMeal")
+    let mealTime = document.getElementById("randomTime")
+    let mealDescription = document.getElementById("randomDescription")
+    let mealIngredients = document.getElementById("randomIngredients")
+    let prepDirection = document.getElementById("randomDirection")
+    let mealNutrition = document.getElementById("randomNutrition")
+
+    let initial = document.getElementById("initial")
+    initial.style.display = "none"
+    let img = document.createElement("img");
+    img.src = this.image
 }
