@@ -12,5 +12,11 @@ html, body {
 .recipeCardContainer {
     display: flex;
     justify-content: center;
+}
 
+button {
+    margin-left: 7rem;
+    background: black !important;
+    border: none !important;
+    position: fixed;
 }
