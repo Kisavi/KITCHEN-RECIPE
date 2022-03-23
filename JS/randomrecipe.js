@@ -140,3 +140,9 @@ let recipes = [{
         "nutrition": "239 calories; protein 0.2g; carbohydrates 25.5g; fat 0g; sodium 8.2mg; cholesterol 0mg."
     }
 ]
+
+function getRecipe() {
+    //GENERATING A RANDOM INDEX FROM THE LENGTH OF OUR ARRAY
+    let generateRandomIndex = Math.floor((Math.random() * recipes.length));
+    let generatedRandomRecipe = recipes[generateRandomIndex]
+}
