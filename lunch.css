@@ -1,0 +1,41 @@
+#chapati-showing{
+  display: none;
+}
+#fries-showing{
+  display: none;
+}
+#chicken-showing{
+  display: none;
+}
+#curry-showing{
+  display: none;
+}
+#pilau-showing{
+  display: none;
+}
+#salmon-showing{
+  display: none;
+}
+#burger-showing{
+  display: none;
+}
+#pasta-showing{
+  display: none;
+}
+#spag-showing{
+  display: none;
+}
+.text-center{
+  color: red;
+  font-family: sans-serif;
+}
+.container{
+  background: url(./pictures/bg.jpeg);
+}
+.card{
+  margin-top: 20px;
+  
+}
+u{
+  color: black;
+}
