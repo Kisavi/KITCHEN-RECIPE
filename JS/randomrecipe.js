@@ -1,6 +1,6 @@
 //  RECIPE ARRAY
 let recipes = [{
-        "image": "images/beans.jpeg",
+        "image": "../IMAGES/randomrecipe/beans.jpeg",
         "food": "Slow Cooker Ham and Beans",
         "dish": "Breakfast Dish:",
         "description": "This recipe is perfect for those blustery days when you don't really have time to cook, but want a hearty meal for the family. It's a very basic, nutrient-packed meal for all to enjoy!",
@@ -19,7 +19,7 @@ let recipes = [{
     },
 
     {
-        "image": "images/chicken.jpeg",
+        "image": "../IMAGES/randomrecipe/chicken.jpeg",
         "food": "Healthy Chicken Salad",
         "dish": "Lunch/Dinner Dish:",
         "description": "A protein-packed alternative to the normal chicken salad. This one is healthier, quick, and easy to make. I peeled my apple, personal preference, but feel free to add it unpeeled.",
@@ -39,7 +39,7 @@ let recipes = [{
     },
 
     {
-        "image": "images/coffee.jpeg",
+        "image": "../IMAGES/randomrecipe/coffee.jpeg",
         "food": "Cold-Brewed Coffee",
         "dish": "Beverages:",
         "description": "Coffee brewed slowly in cold water is less acidic than hot brewed. You can use this concentrate straight over ice or microwave half a mug coffee and then add a half cup of boiling water for quick hot coffee. Develop your own ratio of coffee to water for your custom brew.",
@@ -57,7 +57,7 @@ let recipes = [{
     },
 
     {
-        "image": "images/gumbo.jpeg",
+        "image": "../IMAGES/randomrecipe/gumbo.jpeg",
         "food": "Boudreaux's Zydeco Stomp Gumbo",
         "dish": "Lunch/Dinner Dish:",
         "description": "Dis is da toe curlin Texicajun hybrid of a classic dish. This will put a smile on everyone's face that's eatin it. Throw on some Zydeco music and serve on a bed of rice with corn bread and a cold beer. Whew doggie...be thankful to be alive and toast all us Texicajuns!!!",
@@ -82,7 +82,7 @@ let recipes = [{
     },
 
     {
-        "image": "images/cabbage.jpeg",
+        "image": "../IMAGES/randomrecipe/cabbage.jpeg",
         "food": "Cabbage Fat-Burning Soup",
         "dish": "Anytime Dish:",
         "description": "This tomato and cabbage soup was rumored, in days of old, to melt away those thighs.",
@@ -102,7 +102,7 @@ let recipes = [{
     },
 
     {
-        "image": "images/chocolate.jpeg",
+        "image": "../IMAGES/randomrecipe/chocolate.jpeg",
         "food": "Pam's Sugar Free Chocolate Pie",
         "dish": "Dessert:",
         "description": "A great sugarless pie! Other flavors of sugar free pudding are great too!",
@@ -115,7 +115,7 @@ let recipes = [{
     },
 
     {
-        "image": "images/margarita.jpeg",
+        "image": "../IMAGES/randomrecipe/margarita.jpeg",
         "food": "Margaritas",
         "dish": "Cooktails:",
         "description": "I have been asked by everyone, 'How do you make your margaritas?' Everyone says I make the best. I like them, maybe you will too.",
@@ -128,7 +128,7 @@ let recipes = [{
     },
 
     {
-        "image": "images/champagne.jpeg",
+        "image": "../IMAGES/randomrecipe/champagne.jpeg",
         "food": "The Champagne Cocktail",
         "dish": "Cocktail:",
         "description": "With a little pear brandy and a bit of fruit compote, this makes a great pre-dinner cocktail. Serve it in a tall champagne flute.",
@@ -173,13 +173,12 @@ function getRecipe() {
     let mealIngredients = document.getElementById("randomIngredients")
     let prepDirection = document.getElementById("randomDirection")
     let mealNutrition = document.getElementById("randomNutrition")
-
     let initial = document.getElementById("initial")
-    initial.style.display = "none"
     let img = document.createElement("img");
-    img.src = this.image
 
      //MANIPULATING THE CARD ELEMENTS CONTENT
+     initial.style.display = "none"
+     img.src = this.image
      recipeImage.replaceChild(img, recipeImage.lastChild)
      mealName.innerHTML = this.food
      mealTime.innerHTML = this.dish
