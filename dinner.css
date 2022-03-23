@@ -1,0 +1,40 @@
+#casserole-showing{
+    display: none;
+  }
+  #fish-showing{
+    display: none;
+  }
+  #ndengu-showing{
+    display: none;
+  }
+  #pasta-showing{
+    display: none;
+  }
+  #chicken-showing{
+    display: none;
+  
+  }
+  #mexicanlasagna-showing{
+      display: none;
+
+  }
+
+  #pork-showing{
+    display: none;
+  }
+  #beans-showing{
+    display: none;
+  }
+  #githeri-showing{
+    display: none;
+  }
+  .text-center{
+    color: red;
+    font-family: sans-serif;
+  }
+  .container{
+    background: url(./Dinner\ images/Background.jpeg)
+  }
+  .card{
+    margin-top: 20px;
+  }
