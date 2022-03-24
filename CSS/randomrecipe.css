@@ -61,7 +61,7 @@ span {
     #randomCard {
        padding: 0 4rem;
        margin: 1.2rem 0;
-       border: 1px solid red;
+       border: 1px solid #795548;
     }
 
     #randomImage {
