@@ -2,11 +2,11 @@
 
 ## Authors
 
-* [AdlightAkinyi]()
-* [Beverlyfiona12]()
-* [IsabelKarimi]()
-* [Kisavi]() 
-* [Paullete]()
+* [**AdlightAkinyi**](https://github.com/AdlightAkinyi)
+* [**Beverlyfiona12**](https://github.com/Beverlyfiona12)
+* [**IsabelKarimi**](https://github.com/IsabelKarimi)
+* [**Kisavi**](https://github.com/Kisavi) 
+* [**Paullete**](https://github.com/Paullete)
 
 # Description
 
@@ -14,7 +14,7 @@ This is a recipe website that allow users to randomly generate a recipe or pick 
 
 ## Live Link
 
-Click this link to view the live application #
+Click this link to view the live application https://kisavi.github.io/KITCHEN-RECIPE/
 
 ## ScreenShots
 
@@ -69,5 +69,5 @@ The search field is not working properly.
 If you have any question or contributions, please email me at [denis.kagunda@student.moringaschool.com]
 
 ## License
-* *MIT License:*
-* Copyright (c) 2022
+
+* LICENSED UNDER  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](license)
