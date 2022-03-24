@@ -18,11 +18,12 @@ Click this link to view the live application #
 
 ## ScreenShots
 
-![Landing page](https://user-images.githubusercontent.com/86776527/159737664-03b53202-fa12-4e72-aa27-0f616217bfbc.png)
+![Landing  page](https://user-images.githubusercontent.com/86776527/159891341-1c3a79b8-6cbd-4e8c-b954-2e4e943bc5ba.png)
 
-![Random recipe page](https://user-images.githubusercontent.com/86776527/159740978-1d5ff6c9-5258-49ee-92c1-ac3bb7fc4b2c.png)
+![Lunch page](https://user-images.githubusercontent.com/86776527/159891563-26867126-d80d-48a9-9a54-9be6ba85f1da.png)
 
-[Random recipe](#)
+![Random page](https://user-images.githubusercontent.com/86776527/159892423-46a8d6b2-1a0c-4f0f-b64e-f0b3b60bc9cc.png)
+
 ## User Story
 
 * A user can view any recipe from the ones we have listed.
