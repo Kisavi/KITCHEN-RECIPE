@@ -31,6 +31,11 @@ span {
 
 nav ul li a {
     color:white;
+    text-decoration: none;
+}
+
+nav ul li:hover a {
+    background: #724635;
 }
 
 .home {
@@ -42,6 +47,16 @@ nav ul li a {
 .footer {
     font-size: 50px;
 }
+
+.footer a {
+    padding-right: 1rem;
+    color: rgb(255, 0, 0);
+}
+
+.footer:hover a {
+    color: blue;
+}
+
 .button {
     display: block;
     width: 115px;

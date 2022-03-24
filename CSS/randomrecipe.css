@@ -4,7 +4,7 @@ html, body {
 }
 
 .randomPage {
-    background-image: url("../IMAGES/back4.jpg");
+    background-image: url("../IMAGES/randomrecipe/recipebg.jpg");
     background-position: center center;
     background-size: cover;
 }
@@ -13,23 +13,28 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* margin-bottom: 6.7rem; */
 }
 
 button {
-    margin-left: 7rem;
-    background: black !important;
+    margin-left: 12rem;
+    background: #795548 !important;
     border: none !important;
-    /* position: fixed;  */
+    /* position: fixed; */
+    padding: 1rem !important; 
+    font-size: 0.5rem;
+    font-weight: 600 !important;
 }
 
 #randomCard {
-    margin: 2.6rem 0;
+    margin: 5.9rem 0;
     width: 500px !important;
 }
 
 #randomImage {
     height: 300px;
     width: 498px;
+    border: 1px solid red;
 }
 
 #randomImage img {
@@ -46,7 +51,7 @@ span {
 
     .recipeCardContainer {
         flex-direction: column;
-        padding: 3rem;
+        padding: 1rem;
     }
 
     button {
@@ -55,7 +60,15 @@ span {
 
     #randomCard {
        padding: 0 4rem;
+       margin: 1.2rem 0;
+       border: 1px solid red;
     }
+
+    #randomImage {
+        width: 100vw !important;
+    }
+
+    
     
     
 }
