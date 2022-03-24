@@ -29,7 +29,7 @@ $("#mexicanlasagna").click(function(){
   // SECTION 3
   $("#pork").click(function(){
   $("#pork-showing").toggle("slow");
-  $(".hide-burger-pork").toggle();
+  $(".hide-pork-image").toggle();
   })
   $("#beans").click(function(){
   $("#beans-showing").toggle("slow");

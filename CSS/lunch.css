@@ -30,7 +30,7 @@
   font-family: sans-serif;
 }
 .container{
-  background: url(./pictures/bg.jpeg);
+  background: url(../IMAGES/pictures/bg.jpeg);
 }
 .card{
   margin-top: 20px;
