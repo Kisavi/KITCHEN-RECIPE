@@ -33,7 +33,7 @@
     font-family: sans-serif;
   }
   .container{
-    background: url(./Dinner\ images/Background.jpeg)
+    background: url(../IMAGES/pictures/bg.jpeg);
   }
   .card{
     margin-top: 20px;

@@ -1,5 +1,8 @@
 body {
-    background-image: url(background.png);
+    background-image: url(../IMAGES/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
 }
 
 h2 {
@@ -18,7 +21,7 @@ span {
     align-items: right;
     gap: 1cm;
     margin-top: 70px;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .nav {
@@ -27,7 +30,7 @@ span {
 }
 
 nav ul li a {
-    color: black;
+    color:white;
 }
 
 .home {
@@ -38,4 +41,16 @@ nav ul li a {
 
 .footer {
     font-size: 50px;
+}
+.button {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: maroon;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
 }
